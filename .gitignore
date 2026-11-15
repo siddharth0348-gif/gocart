@@ -1,0 +1,5 @@
+/gocart-backend/target/
+/gocart-main/.env*
+!/gocart-main/.env.example
+/gocart-main/node_modules/
+/gocart-main/.next/

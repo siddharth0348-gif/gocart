@@ -1,0 +1,158 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "GoCart: Start development server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart Dev Server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart development server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main\\gocart-main",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart dev server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install GoCart dependencies",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"install"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build GoCart",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart local preview 2",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Check GoCart working tree",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"status",
+				"--short"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Check app file changes",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"-C",
+				"C:\\Users\\siddh",
+				"status",
+				"--short",
+				"--",
+				"Downloads/gocart-main"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build GoCart final",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart run updated app",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "GoCart updated dev server",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"gocart-main",
+				"run",
+				"dev"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
